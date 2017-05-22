@@ -10,7 +10,7 @@ dependencies:
 
 test:
   override:
-    - docker-compose
+    - docker-compose --version
     - docker-compose up -d
     - docker-compose run dockerapp python test.py
 
