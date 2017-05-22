@@ -6,8 +6,8 @@ machine:
 
 dependencies:
   pre:
-    - pip install --upgrade pip
-    - sudo pip install docker-compose
+    - sudo pip install --upgrade pip
+    - sudo pip install docker-compose --1.13.0
 
 test:
   override:
