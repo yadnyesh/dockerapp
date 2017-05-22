@@ -12,7 +12,6 @@ dependencies:
 test:
   override:
     - docker-compose --version
-    - docker-compose up -d
     - docker-compose run dockerapp python test.py
 
 deployment:
